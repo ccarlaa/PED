@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../trabalho_10_ass.srcs/sources_1/new/SETE_SEG.vhd" \
+"../../../../trabalho_10_ass.srcs/sources_1/new/clock1HZ.vhd" \
+"../../../../trabalho_10_ass.srcs/sources_1/new/flip_flop.vhd" \
+"../../../../trabalho_10_ass.srcs/sources_1/new/maxter.vhd" \
+"../../../../trabalho_10_ass.srcs/sim_1/new/testbench.vhd" \
+
+# Do not sort compile order
+nosort

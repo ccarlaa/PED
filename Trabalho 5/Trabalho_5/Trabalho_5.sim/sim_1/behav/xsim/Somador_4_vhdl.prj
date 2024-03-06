@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Trabalho_5.srcs/sources_1/new/Complemento.vhd" \
+"../../../../Trabalho_5.srcs/sources_1/new/Complemento_2.vhd" \
+"../../../../Trabalho_5.srcs/sources_1/new/Detector_Overflow.vhd" \
+"../../../../Trabalho_5.srcs/sources_1/new/Mux.vhd" \
+"../../../../Trabalho_5.srcs/sources_1/new/Somador.vhd" \
+"../../../../Trabalho_5.srcs/sources_1/new/Somador_4.vhd" \
+
+# Do not sort compile order
+nosort
